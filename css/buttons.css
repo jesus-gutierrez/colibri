@@ -1,0 +1,38 @@
+button{
+  background: #262E30;
+    border-radius: 28px;
+    padding: 8px 24px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.disabled{
+  background: #EEEEEE;
+  color: #262E30;
+  cursor: default;
+}
+
+.secondary{
+  background: transparent;
+    border-radius: 28px;
+    padding: 8px 24px;
+    height: 40px;
+    text-align: center;
+    color: #262E30;
+    cursor: pointer;
+    border: solid 1px #262E30;
+}
+
+.secondaryDisabled {
+  background: transparent;
+    border-radius: 28px;
+    padding: 8px 24px;
+    height: 40px;
+    text-align: center;
+    color: #EEEEEE;
+    cursor: default;
+    border: solid 1px #EEEEEE;
+}

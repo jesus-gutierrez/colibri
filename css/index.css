@@ -1,0 +1,51 @@
+.sidenav{
+  background: #fff;
+  height: 100vh;
+  width: 300px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+}
+.logo{
+  background-image: url(../images/logo.png);
+  background-color: #262E30;
+  background-size: 50%;
+  padding: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.mainWrapper{
+  padding-left: 300px;
+}
+
+.mainWrapper > .mainContent {
+    display: none;
+}
+.mainWrapper > .mainContent:target {
+    display: block;
+}
+
+.mainContent{
+  padding: 32px 33% 0 32px;
+}
+
+.colorDisplay{
+  padding: 56px 0 16px 16px;
+}
+
+.textDisplay{
+  padding: 24px 16px;
+  box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
+}
+
+.subtext{
+  font-size: 14px;
+    font-weight: 300;
+    padding: 16px;
+}
+
+.buttonDisplay{
+  padding: 32px 16px;
+}
