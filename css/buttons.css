@@ -1,12 +1,13 @@
-button{
+.button{
   background: #262E30;
-    border-radius: 28px;
-    padding: 8px 24px;
-    height: 40px;
-    text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
-    border: none;
+  border-radius: 28px;
+  padding: 8px 24px;
+  height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  margin: 16px;
 }
 
 .disabled{
@@ -17,22 +18,42 @@ button{
 
 .secondary{
   background: transparent;
-    border-radius: 28px;
-    padding: 8px 24px;
-    height: 40px;
-    text-align: center;
-    color: #262E30;
-    cursor: pointer;
-    border: solid 1px #262E30;
+  border-radius: 28px;
+  padding: 8px 24px;
+  height: 40px;
+  text-align: center;
+  color: #262E30;
+  cursor: pointer;
+  border: solid 1px #262E30;
+  margin: 16px;
 }
 
 .secondaryDisabled {
   background: transparent;
-    border-radius: 28px;
-    padding: 8px 24px;
-    height: 40px;
-    text-align: center;
-    color: #EEEEEE;
-    cursor: default;
-    border: solid 1px #EEEEEE;
+  border-radius: 28px;
+  padding: 8px 24px;
+  height: 40px;
+  text-align: center;
+  color: #EEEEEE;
+  cursor: default;
+  border: solid 1px #EEEEEE;
+  margin: 16px;
+}
+
+.textButton{
+  font-size: 16px;
+  color: #262E30;
+  line-height: 24px;
+  padding: 8px 24px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.textButtonDisabled{
+  font-size: 16px;
+  color: #9A9A9A;
+  line-height: 24px;
+  padding: 8px 24px;
+  background-color: transparent;
+  cursor: default;
 }
