@@ -16,3 +16,11 @@ input[type=text]:focus,textarea:focus {
   border: 2px solid #262E30;
   outline: 0;
 }
+
+.input-label {
+  color: #262E30;
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 9px;
+}
