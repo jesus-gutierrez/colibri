@@ -2,6 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Wizeline Colibri</title>
+  <link rel="stylesheet" href="css/input.css">
   <link rel="stylesheet" href="css/accordion.css">
   <link rel="stylesheet" href="css/color.css">
   <link rel="stylesheet" href="css/fonts.css">
@@ -38,6 +39,8 @@
         <a class="accordionSubMenu" href="#10">Icons</a>
         <a class="accordionSubMenu" href="#11">Footer</a>
         <a class="accordionSubMenu" href="#12">Navbar</a>
+        <a class="accordionSubMenu" href="#13">Slider</a>
+        <a class="accordionSubMenu" href="#14">Text Input</a>
       </div>
     </div>
     <div class="accordionItem close">
@@ -114,28 +117,68 @@
     <div class="mainContent" id="8">
       <div class="hero">Buttons</div>
       <div class="subtitle">Primary button without icons</div>
-      <div class="buttonDisplay">
-        <a class="button">Primary</a>
-        <a class="button disabled">Primary Disabled</a>
+      <div class="spaceDisplay">
+        <button type="button" name="button">Primary</button>
+        <button type="button" name="button" class="disabled">Primary Disabled</button>
       </div>
       <div class="subtitle">Primary button with icons</div>
-      <div class="buttonDisplay">
-        <a class="button">Primary</a>
+      <div class="spaceDisplay">
+        <button type="button" name="button">Primary</button>
       </div>
       <div class="subtitle">Secondary button without icons</div>
-      <div class="buttonDisplay">
-        <a type="button" name="button" class="secondary">Secondary</a>
-        <a type="button" name="button" class="secondaryDisabled">Secondary Disabled</a>
+      <div class="spaceDisplay">
+        <button type="button" name="button" class="secondary">Secondary</button>
+        <button type="button" name="button" class="secondaryDisabled">Secondary Disabled</button>
       </div>
-      <div class="subtitle">Secondary button with icons</div>
-      <div class="buttonDisplay">
-        <a type="button" name="button" class="secondary">Secondary</a>
+    </div>
+
+    <div class="mainContent" id="13">
+      <div class="hero">Sliders</div>
+      <div class="subtitle">Primary button without icons</div>
+      <div class="spaceDisplay">
+        <button type="button" name="button">Primary</button>
+        <button type="button" name="button" class="disabled">Primary Disabled</button>
       </div>
-      <div class="subtitle">Link button</div>
-      <div class="buttonDisplay">
-        <a class="textButton">Text Link</a>
-        <a class="textButtonDisabled">Text Link</a>
+      <div class="subtitle">Primary button with icons</div>
+      <div class="spaceDisplay">
+        <button type="button" name="button">Primary</button>
       </div>
+      <div class="subtitle">Secondary button without icons</div>
+      <div class="spaceDisplay">
+        <button type="button" name="button" class="secondary">Secondary</button>
+        <button type="button" name="button" class="secondaryDisabled">Secondary Disabled</button>
+      </div>
+    </div>
+
+    <div class="mainContent" id="14">
+      <div class="hero">Text Input</div>
+      <div class="subtitle">Text Input Active</div>
+      
+      <div class="spaceDisplay">
+        <input type="text" placeholder="Text">
+      </div>
+      
+      <div class="subtitle">Disable</div>
+
+      <div class="spaceDisplay">
+        <input class="disable" type="text" placeholder="Disable">
+      </div >
+
+      <div class="subtitle">Text Area</div>
+      
+      <div class="spaceDisplay">
+        <textarea rows="5" cols="50" placeholder="Text"></textarea>
+      </div>
+
+      <div class="subtitle">Text Input + Label</div>
+
+      <div class="spaceDisplay">
+        <form>
+          <label class="input-label" for="inputwithlabel">Label</label> 
+          <input id="inputwithlabel" name="fname" type="text" placeholder="Text"/>
+        </form>
+      </div>
+      
     </div>
 
   </div>

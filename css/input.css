@@ -1,0 +1,26 @@
+input[type=text],textarea {
+  color: #9A9A9A;
+  padding: 10px 20px;
+  border: 2px solid #9A9A9A;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type=text].disable {
+  background: #EEEEEE;
+  pointer-events: none;
+}
+
+input[type=text]:focus,textarea:focus {
+  color: #262E30;
+  border: 2px solid #262E30;
+  outline: 0;
+}
+
+.input-label {
+  color: #262E30;
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 9px;
+}
