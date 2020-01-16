@@ -2,6 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Wizeline Colibri</title>
+  <link rel="stylesheet" href="css/dropdown.css">
   <link rel="stylesheet" href="css/input.css">
   <link rel="stylesheet" href="css/accordion.css">
   <link rel="stylesheet" href="css/color.css">
@@ -41,6 +42,7 @@
         <a class="accordionSubMenu" href="#12">Navbar</a>
         <a class="accordionSubMenu" href="#13">Slider</a>
         <a class="accordionSubMenu" href="#14">Text Input</a>
+        <a class="accordionSubMenu" href="#15">Dropdown</a>
       </div>
     </div>
     <div class="accordionItem close">
@@ -153,32 +155,47 @@
     <div class="mainContent" id="14">
       <div class="hero">Text Input</div>
       <div class="subtitle">Text Input Active</div>
-      
       <div class="spaceDisplay">
         <input type="text" placeholder="Text">
       </div>
-      
       <div class="subtitle">Disable</div>
-
       <div class="spaceDisplay">
         <input class="disable" type="text" placeholder="Disable">
       </div >
-
       <div class="subtitle">Text Area</div>
-      
       <div class="spaceDisplay">
         <textarea rows="5" cols="50" placeholder="Text"></textarea>
       </div>
-
       <div class="subtitle">Text Input + Label</div>
-
       <div class="spaceDisplay">
         <form>
           <label class="input-label" for="inputwithlabel">Label</label> 
           <input id="inputwithlabel" name="fname" type="text" placeholder="Text"/>
         </form>
       </div>
-      
+    </div>
+
+    <div class="mainContent" id="15">
+      <div class="hero">Dropdown</div>
+      <div class="subtitle">Regular</div>
+
+      <div class="spaceDisplay spacesmall">
+        <select class="select-colibri">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option>
+          <option value="Option 4">Option 4</option>
+        </select>
+      </div class="spaceDisplay">
+ 
+      <div class="subtitle">Disable</div>      
+
+      <div class="spaceDisplay spacesmall">
+        <select class="select-colibri disable" placeholder="Disable">
+          <option value="Option 1">Disable</option>
+        </select>
+      </div class="spaceDisplay">
+
     </div>
 
   </div>

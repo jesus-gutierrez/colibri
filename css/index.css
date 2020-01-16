@@ -49,3 +49,7 @@
 .spaceDisplay{
   padding: 32px 16px;
 }
+
+.spaceDisplay.spacesmall{
+  padding: 32px 60% 32px 16px;
+}
