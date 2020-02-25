@@ -69,7 +69,22 @@
 	border-color: #aaa;
 }
 
+.select-colibri-options {
+	background: #FFFFFF;
+	border-radius: 4px;
+	box-shadow: 0px 2px 5px 0px #BBBBBB;
+}
 
-body {
-  margin: 2rem;
+.select-colibri-options ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.select-colibri-options li {
+	padding: 20px 15px;
+}
+
+.select-colibri-options li:hover {
+	background: #EEEEEE;
+	cursor: pointer;
 }
